@@ -1,0 +1,102 @@
+
+/* ============================================
+    General Reset Code
+=============================================== */
+@font-face { 
+    font-family: 'Nikosh';
+    src: url('fonts/Nikosh.ttf') format('ttf');
+    }
+
+@font-face { 
+    font-family: 'Lato', sans-serif;
+    src: url('fonts/lato/Lato-Black.ttf') format('ttf');
+    src: url('fonts/lato/Lato-BlackItalic.ttf') format('ttf');
+    src: url('fonts/lato/Lato-Bold.ttf') format('ttf');
+    src: url('fonts/lato/Lato-BoldItalic.ttf') format('ttf');
+    src: url('fonts/lato/Lato-Italic.ttf') format('ttf');
+    src: url('fonts/lato/Lato-Light.ttf') format('ttf');
+    src: url('fonts/lato/Lato-LightItalic.ttf') format('ttf');
+    src: url('fonts/lato/Lato-Regular.ttf') format('ttf');
+    src: url('fonts/lato/Lato-Thin.ttf') format('ttf');
+    }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Nikosh';
+    -webkit-transition: all 0.3s ease;                 
+    -o-transition: all 0.3s ease;          
+    transition: all 0.3s ease;
+    background-position-y:inherit;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+    
+    h1, h2{
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 10px 0;
+    }
+    
+    p{
+        margin: 10px 0;
+    }
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    body {
+      font-size: 20px;      
+      font-size-adjust: 0.5;
+      }
+  }

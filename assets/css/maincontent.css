@@ -1,0 +1,1023 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+span.menuimg2::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #00FFFF;
+  border-radius: 50%;
+  top: 3px;
+  left: -15px;
+  line-height: 10px;
+}
+.menuimg2{
+  position: relative;
+}
+
+span.menuimg3::after {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 5px;
+  background: #00FFFF;
+  top: 3px;
+  left: -18px;
+  line-height: 10px;
+}
+.menuimg3{
+  position: relative;
+}
+
+
+label #sidebar_btn {
+  display: none;
+}
+
+/* ================ Top Header area ======================  */
+
+header {
+  cursor: pointer;
+}
+
+.headerarea {
+  position: relative;
+  height: 62px;
+  margin-left:18%;
+  transition:0.5s;
+  -webkit-transition:0.5s;
+  -moz-transition:0.5s;
+  -ms-transition:0.5s;
+  -o-transition:0.5s;
+  -webkit-box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+  width: calc(100% - 18%);
+  float: left;
+
+}
+
+.headerarea .header_right {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header_right .single_item {
+  padding: 11px 20px;
+}
+
+img.subimage {
+  margin-left: 8px;
+}
+
+.headerleft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  width: 30%;
+}
+
+select#inputGroupSelect01 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border: none;
+  background: transparent;
+  width: 100%;
+
+}
+
+select#inputGroupSelect01:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.details a{
+  position: relative;
+  cursor: pointer;
+}
+
+span.plusimg img {
+  float: left;
+  margin-right: 10px;
+}
+
+.dropdown-item h6{
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.dropdown-item p{
+  font-size:11px;
+  color: #B9B9B9;
+}
+
+ul.dropdown-menu.show li {
+  width: 310px;
+  margin-bottom: 20px;
+}
+ul.dropdown-menu.show li a{
+  padding: 10px 5px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+ul.dropdown-menu.show li:hover  a{
+  background-color: #E0F8F7;
+ 
+}
+ul.dropdown-menu.show li a.active {
+  background-color: #FFEFEF;
+ 
+}
+
+.dropdown-menu{
+  position: absolute;
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  transform: translate(0px, 42px) !important;
+  -webkit-transform: translate(0px, 42px) !important;
+  -moz-transform: translate(0px, 42px) !important;
+  -ms-transform: translate(0px, 42px) !important;
+  -o-transform: translate(0px, 42px) !important;
+  z-index: 999 !important;
+}
+
+.designation a {
+  text-decoration: none;
+  position: relative;
+}
+span.maintitle {
+  color: #606FD1;
+  font-size: 16px;
+  margin-top: -3px;
+  float: left;
+  font-size: 18px;
+  font-family: Nikosh;
+}
+
+span.manager {
+margin-top: 15px;
+/* float: left; */
+position: absolute;
+right: 40px;
+font-size: 16px;
+color: #727272;
+font-family: Nikosh;
+}
+
+img.personimage {
+  margin-left: 10px;
+}
+
+.maincontent{
+  background:#F8F8F8;
+  min-height: 100vh;
+  margin-left: 18%;
+
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+  width: calc(100% - 18%);
+  float: left;
+}
+
+/*======================== Top Header  Switcher ===================== */
+
+.onoffswitch {
+  position: relative; 
+  width: 90px;
+  -webkit-user-select:none; 
+  -moz-user-select:none; 
+  -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #22CCC1;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.onoffswitch-inner {
+  display: block; width: 200%; margin-left: -100%;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+  font-size: 14px; color: white; font-weight: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+  content: "বাংলা";
+  padding-left: 10px;
+   color: #22CCC1;
+   font-weight: 700;
+}
+.onoffswitch-inner:after {
+  content: "Eng";
+  padding-right: 10px;
+  color: #22CCC1;
+  text-align: right;
+}
+.onoffswitch-switch {
+  display: block;
+  width: 30px;
+  margin: 2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 56px;
+  border: 2px solid #E0F8F7;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+  height: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px; 
+}
+
+
+/* ========================= Body top Title ======================= */
+
+.topmaintitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0px 5px;
+  width: 100%;
+}  
+.topmaintitleeng {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0px 5px;
+  width: 100%;
+}
+
+.topmaintitleeng img{
+  margin: 0px 20px;
+}
+  
+.topmaintitle img{
+  margin: 0px 20px;
+}
+
+.topmaintitle h3 {
+  color: #0098BF;
+  font-size: 28px;
+  font-weight: normal;
+  font-family: Nikosh;
+  margin-top: 7px;
+}  
+.topmaintitleeng h3 {
+color: #0098BF;
+font-size: 23px;
+font-weight: 400;
+font-family: 'Lato', sans-serif;
+margin-top: 7px;
+}
+
+.drapoitmenttitle h4 {
+color: #0098BF;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 20px;
+margin-top: -33px;
+width: -webkit-fit-content;
+width: -moz-fit-content;
+width: fit-content;
+background-color: #F8F8F8;
+width: -webkit-max-content;
+width: -moz-max-content;
+width: max-content;
+padding: 0px 15px;
+font-family: nikosh;
+}  
+
+.drapoitmenttitleeng h4 {
+color: #0098BF;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 20px;
+margin-top: -33px;
+width: -webkit-fit-content;
+width: -moz-fit-content;
+width: fit-content;
+background-color: #F8F8F8;
+width: -webkit-max-content;
+width: -moz-max-content;
+width: max-content;
+padding: 0px 15px;
+font-family: 'Lato', sans-serif;
+}
+.botomtitle h4 {
+color: #0098BF;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 20px;
+width: -webkit-fit-content;
+width: -moz-fit-content;
+width: fit-content;
+background-color: #F8F8F8;
+width: -webkit-max-content;
+width: -moz-max-content;
+width: max-content;
+padding: 0px 15px;
+font-family: 'Lato', sans-serif;
+}
+
+.formtext {
+font-size: 18px;
+font-family: Nikosh;
+font-weight: normal;
+}
+
+.formtexteng {
+font-size: 14px;
+font-family: 'Lato', sans-serif;
+font-weight: normal;
+}
+
+.drappoitmentform {
+  text-align: right;
+}
+.drappoiment {
+  padding: 20px;
+}
+
+textarea.commentbox {
+  width: 100%;
+}
+
+
+
+.btn-primarybatil {
+  background-color: #FF6A6A;
+  font-size: 17px;
+  color: #fff;
+  padding: 3px 14px;
+  margin-right: 10px;
+  font-family: Nikosh;
+  line-height: 20px;
+}
+
+.btn-primarysubmit{
+  background-color: #4A87E2;
+  font-size: 17px;
+  color: #fff;
+  padding: 3px 14px;
+  margin-right: 10px;
+  font-family: Nikosh;
+  line-height: 20px;
+}  
+  
+.btn-primarysubmitsearch{
+  background-color: #0098BF;
+  font-size: 18px;
+  color: #fff;
+  padding: 2px 20px;
+  margin-right: 0px;
+  font-family: Nikosh;
+  margin-top: 30px;
+}  
+
+.addsubmit {
+  background-color: #1DB4C5;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-primarybatileng {
+  background-color: #FF6A6A;
+  font-size: 13px;
+  color: #fff;
+  padding: 5px 25px;
+  margin-right: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.btn-primarysubmiteng{
+  background-color: #4A87E2;
+  font-size: 13px;
+  color: #fff;
+  padding: 5px 25px;
+  margin-right: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.mb-3.row {
+  margin-bottom: 20px;
+}
+
+
+
+/* ======================== Form Border Design file =========================== */
+.onlyborder {
+  width: 100%;
+  border: 1px solid #0098BF;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+
+/* ======================== Form Border Design file =========================== */
+
+table.lablist tbody tr td input[type=text] {
+  width: 100%;
+}
+
+/* ===================================== Apontment search form ==================== */
+
+.searcharrow{
+position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+cursor: pointer;
+border-radius: 4px;
+margin-right: 0px;
+margin-right:-10px;
+opacity: 0.6;
+-webkit-filter: invert(0.8);
+        filter: invert(0.8);
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+cursor: pointer;
+border-radius: 4px;
+margin-right: 0px;
+margin-right:-10px;
+opacity: 0.6;
+-webkit-filter: invert(0.8);
+        filter: invert(0.8);
+}
+
+.btn-primarybatil:hover {
+color: #ddd;
+text-decoration: none;
+border: none;
+
+}
+.btn-primarysubmit:hover {
+color: #ddd;
+text-decoration: none;
+border: none;
+}
+
+.allsubmit {
+text-align: right!important;
+display: inline-block;
+margin-bottom: 20px;
+}
+
+
+/* =========================== lablisttable Page ========================== */
+
+table.lablisttable{
+border: 1px solid #BBD7D9;
+}
+
+
+table.lablisttable thead {
+background-color: #F1F9FB;
+color: #6E6E6E;
+font-size: 13px;
+font-family: 'Lato', sans-serif;
+}
+
+table.lablisttable tbody tr td input {
+width: 100%;
+}
+
+table.lablisttable thead tr th {
+  border-right: 1px solid #BBD7D9;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+table.lablisttable thead tr th:last-child {
+border-right: none;
+}
+
+table.lablisttable tbody tr td input {
+width: 100%;
+border: 1px solid #ededed !important;
+}
+
+.medicalcheck[type="checkbox"]{
+border: 1px solid #ededed !important;
+width: 17px;
+height: 17px;
+text-align: right;
+margin-top: 10px;
+}
+
+
+td.medicalcheck1 {
+text-align: center;
+}
+
+.addplus {
+float: left;
+display: block;
+padding-right: 13px;
+font-weight: 400;
+font-size: 20px;
+}
+.totaltrash .fa-trash {
+font-size: 12px;
+color: #FF6A6A;
+}
+.totaltrash {
+background-color: #EBEBEB;
+padding: 3px 10px;
+border-radius: 8px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 8px;
+-ms-border-radius: 8px;
+-o-border-radius: 8px;
+text-align: center;
+}
+
+
+/* =========================== lablisttable Page ========================== */
+/* =========================== Custom file Upload ========================== */
+
+.fileUploadInput {
+display: -ms-grid;
+display: grid;
+grid-gap: 10px;
+position: relative;
+z-index: 1; }
+
+.fileUploadInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: setColor(primary, 0.5);
+  background: setColor(white);
+  -webkit-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+  font-family: arial, sans-serif;
+  font-size: .75em;
+  font-weight: regular; }
+  
+  .fileUploadInput input {
+    position: relative;
+    z-index: 1;
+    padding: 0 gap(m);
+    width: 72%;
+    height: 50px;
+    border: 1px solid #EBEDF3;
+    border-radius: 3px;
+    font-family: arial, sans-serif;
+    font-size: 1rem;
+    font-weight: regular;
+}
+
+
+
+  .fileUploadInput input[type="file"] {
+    padding: 0 gap(m); }
+    .fileUploadInput input[type="file"]::-webkit-file-upload-button {
+      visibility: hidden;
+      margin-left: 10px;
+      padding: 0;
+      height: 50px;
+      width: 0; }
+      
+    .fileUploadInput button {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 25%;
+      height: 50px;
+      line-height: 0;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      color: #3699FF;
+      background-color: #EBEDF3;
+      border-radius:5px;
+      font-family: arial, sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      border: none;
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+      -ms-border-radius:5px;
+      -o-border-radius:5px;
+}
+
+  .fileUploadInput button svg {
+    width: auto;
+    height: 50%; }
+
+.searchbg {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: .375rem 1.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #0098BF;
+  border: 1px solid #0098BF;
+  border-radius: .25rem;
+}
+
+img.searchzoop {
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+.pharmasearch {
+margin-bottom: 20px;
+}
+
+.totalcount{
+border: none !important;
+}
+
+.patapage{
+border: none !important;
+}
+.oneof{
+border: none !important;
+}
+
+.toppagination {
+margin-bottom: 30px;
+border-bottom: 3px solid #CBD7E4;
+padding: 25px;
+}
+
+a.page-linkpagerecord {
+font-size: 20px;
+font-family: nikosh;
+text-decoration: none;
+}
+
+a.page-link.totalcount {
+border: 1px solid #707070 !important;
+padding: 7px 30px;
+border-radius: 4px;
+margin: 0px 10px;
+color: #6E6E6E;
+}
+
+.page-link {
+position: relative;
+display: block;
+padding: .5rem .75rem;
+margin-left: -1px;
+line-height: 1.25;
+color: #6E6E6E;
+background-color: #fff;
+border: 1px solid #707070;
+}
+
+a.page-link.patapage {
+margin-left: 0px;
+}
+
+
+a.page-link.oneof {
+border: 1px solid #707070 !important;
+padding: 7px 30px;
+border-radius: 4px;
+margin: 0px 10px;
+color: #6E6E6E;
+}
+
+.ertherty{
+border: none !important;
+}
+
+
+.searchtable tr{
+
+font-family: Nikosh;
+color: #434343;
+
+}
+.reporttable tr{
+
+font-family: Nikosh;
+color: #434343;
+text-align: center;
+font-family: 'Lato', sans-serif;
+
+}
+
+.searchtable tr th {
+text-align: center;
+font-size: 15px;
+background-color: #F1F9FB;
+font-weight: normal;
+font-family: Nikosh;
+}
+
+a.details {
+text-decoration: none;
+color: #606FD1;
+}
+
+a.pleaseadd {
+  text-decoration: none;
+  background-color: #68CC6C;
+  color: #fff;
+  padding: 5px 4px;
+  border-radius: 4px;
+  font-family: Nikosh;
+  float: left;
+  min-width: 90px !important;
+  display: block;
+  line-height: 23px;
+}
+
+a.pescription {
+text-decoration: none;
+background-color: #22CCC1;
+color: #fff;
+padding: 5px 10px;
+border-radius: 4px;
+font-family: Nikosh;
+}
+
+a.pleasebatil {
+text-decoration: none;
+background-color: #FF6A6A;
+color: #fff;
+padding: 5px 10px;
+border-radius: 4px;
+font-family: Nikosh;
+}
+
+.totaltrashsearch{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+i.fas.fa-trash {
+color: #FF6A6A;
+margin-right: 10px;
+}
+
+a.pleasebatilcheck {
+float: right;
+}
+
+
+/* ==================================== Document css ====================== */
+
+.allsubmitreport {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+-webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+
+}
+
+.btnreport{
+background-color: #EBEDF3;
+padding: 3px 15px;
+}
+
+button.btn.btnreport.btn-copy {
+color: #4A87E2;
+margin-right: 10px;
+}
+
+button.btn.btnreport.btn-excel {
+color: #0076A7;
+margin-right: 10px;
+}
+
+button.btn.btnreport.btn-csv {
+color: #3AA55A;
+margin-right: 10px;
+}
+
+button.btn.btnreport.btn-pdf {
+color: #FF6A6A;
+margin-right: 10px;
+}
+button.btn.btnreport.btn-print {
+color: #434343;
+margin-right: 10px;
+}
+
+/* =========================== test Content css ========================== */
+
+
+#table-example-1 { 
+border: solid thin; 
+border-collapse: collapse; 
+}
+#table-example-1 caption { 
+padding-bottom: 0.5em; 
+}
+#table-example-1 th, 
+#table-example-1 td { 
+border: solid thin;
+padding: 0.5rem 2rem;
+}
+#table-example-1 td {
+white-space: nowrap;
+}
+#table-example-1 th { 
+font-weight: normal; 
+}
+#table-example-1 td { 
+border-style: none solid; 
+vertical-align: top; 
+}
+#table-example-1 th { 
+padding: 0.2em; 
+vertical-align: middle; 
+text-align: center; 
+}
+
+#table-example-1 tbody td:first-child::after { 
+content: leader(". "); 
+}
+/* =========================== test Content css ========================== */
+/* =========================== Presentation page design ========================== */
+
+.leftallcontent {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: left;
+    -ms-flex-pack: left;
+        justify-content: left;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.leftlogo {
+margin-right: 10px;
+}
+/* =========================== Presentation page design ========================== */
+/* =========================== Mulistage Form design ========================== */
+
+.mulistageform{
+position: relative;
+
+}
+
+.mulistageform form{
+position: absolute;
+width: 100%;
+}
+
+
+form#form1 {
+position: absolute;
+width: 100%;
+overflow: hidden;
+}
+
+form#form2 {
+position: absolute;
+width: 100%;
+left: 650px;
+
+}
+
+form#form3 {
+position: absolute;
+width: 100%;
+left: 650px;
+
+}
+
+form#form4 {
+position: absolute;
+width: 100%;
+left: 650px;
+}
+
+.addmore {
+  margin-bottom: 80px;
+}
+
+.topbottom{
+  margin: 0px !important;
+}
+
+span.onoffswitch-switch img {
+  margin-top: -8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+a.totaltrashlist i {
+  background-color: #ededed;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* =========================== Mulistage Form design ========================== */
+
+
+
+
+
+
+
+
+
