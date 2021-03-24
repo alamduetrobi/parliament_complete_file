@@ -3,22 +3,89 @@
     General Reset Code
 =============================================== */
 @font-face { 
-    font-family: 'Nikosh';
-    src: url('fonts/Nikosh.ttf') format('ttf');
+    font-family: 'Noto Sans Bengali UI';
+    
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Black.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Bold.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Extra_Bold.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Extra_Light.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Light.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Medium.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Regular.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Semi_Bold.ttf') format('ttf');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Thin.ttf') format('ttf');    
+
+
+    /* src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Black.woff') format('woff');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Bold.woff') format('woff');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Extra_Bold.woff') format('woff');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Extra_Light.woff') format('woff');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Light.woff') format('woff');
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Medium.woff') format('woff'); */
+
+    src: url('Fonts/Noto_Sans_Bengali_UI/Noto_Sans_Bengali_UI-Regular.woff') format('woff');
+
+
     }
 
+
+    /* @font-face { 
+        font-family: 'Noto Sans Bengali UI';
+
+    
+    
+        } */
+    
+
+
+
 @font-face { 
-    font-family: 'Lato', sans-serif;
-    src: url('fonts/lato/Lato-Black.ttf') format('ttf');
-    src: url('fonts/lato/Lato-BlackItalic.ttf') format('ttf');
-    src: url('fonts/lato/Lato-Bold.ttf') format('ttf');
-    src: url('fonts/lato/Lato-BoldItalic.ttf') format('ttf');
-    src: url('fonts/lato/Lato-Italic.ttf') format('ttf');
-    src: url('fonts/lato/Lato-Light.ttf') format('ttf');
-    src: url('fonts/lato/Lato-LightItalic.ttf') format('ttf');
-    src: url('fonts/lato/Lato-Regular.ttf') format('ttf');
-    src: url('fonts/lato/Lato-Thin.ttf') format('ttf');
+    font-family: 'Roboto', sans-serif;
+
+    src: url('fonts/Roboto/Roboto-Black.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-BlackItalic.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-Bold.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-BoldCondensed.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-BoldCondensedItalic.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-BoldItalic.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-Condensed.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-CondensedItalic.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-Italic.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-Light.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-LightItalic.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-Medium.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-MediumItalic.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-Thin.ttf') format('ttf');
+    src: url('fonts/Roboto/Roboto-ThinItalic.ttf') format('ttf');
+
+    src: url('fonts/Roboto/Roboto-Black.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-BlackItalic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-Bold.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-BoldCondensed.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-BoldCondensedItalic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-BoldItalic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-Condensed.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-CondensedItalic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-Italic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-Light.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-LightItalic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-Medium.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-MediumItalic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-Regular.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-Thin.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-ThinItalic.woff') format('woff');
+
     }
+
+    
+@font-face { 
+    font-family: 'SolaimanLipi', sans-serif;
+    src: url('Fonts/SolaimanLipi/SolaimanLipi-Normal.ttf') format('ttf');
+    src: url('Fonts/SolaimanLipi/SolaimanLipi-Normal.woff') format('woff');
+}
+
+
 
 
 

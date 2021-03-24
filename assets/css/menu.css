@@ -9,6 +9,13 @@
 /* =====================================
 Left Menu Code 
 ========================================= */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .mainwrapper{
   -webkit-box-flex: 0;
           flex: 0 0 100%;
@@ -19,7 +26,7 @@ Left Menu Code
 
 .topmenuarea{
   -webkit-box-flex: 0;
-          flex: 0 0 100%;
+  flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 84%;
   float: left;
@@ -76,6 +83,7 @@ Left Menu Code
   /* background: #F5F5F5; */
   overflow-y: scroll;
   margin-bottom: 25px;
+  scrollbar-width: 0.2em;
 }
 
 
@@ -83,19 +91,57 @@ Left Menu Code
  *  STYLE 3
  */
 
+
+ /* .scroll.ps>.ps__rail-y {
+  width:4px
+ }
+ .scroll.ps>.ps__rail-y:focus,
+ .scroll.ps>.ps__rail-y:hover {
+  width:4px
+ }
+ .scroll.ps>.ps__rail-y>.ps__thumb-y {
+  width:4px;
+  border-radius:.42rem!important
+ }
+ .scroll.ps>.ps__rail-y>.ps__thumb-y:focus,
+ .scroll.ps>.ps__rail-y>.ps__thumb-y:hover {
+  width:4px
+ } */
+
+ #scrolldesign::-moz-scrollbar-track
+ {
+   /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+   background-color: #0076A7;
+ }
  #scrolldesign::-webkit-scrollbar-track
  {
    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
    background-color: #0076A7;
  }
  
+
+ #scrolldesign::-webkit-scrollbar {
+  width: 0.2em !important;
+}
+ 
  #scrolldesign::-webkit-scrollbar
  {
-   width: 4px;
+  scrollbar-width: thin;
+   background-color: #0076A7;
+ } 
+ #scrolldesign::-moz-scrollbar
+ {
+  scrollbar-width: thin;
    background-color: #0076A7;
  }
  
  #scrolldesign::-webkit-scrollbar-thumb
+ {
+   background-color: #0081B7;
+   opacity: 0;
+ } 
+
+ #scrolldesign::-moz-scrollbar-thumb
  {
    background-color: #0081B7;
    opacity: 0;
@@ -190,7 +236,9 @@ svg:hover {
 }
 
 span.menuimg img {
-  padding-right: 10px;
+  /* padding-right: 20px; */
+  /* width: 25px;
+  height: 30px; */
 }
 
 span.angle .icon {
@@ -206,15 +254,16 @@ img.subimagesub {
   width: 25px;
   margin-left: 10px;
 }
-
 span.menutext {
   display: block;
   float: left;
   width: 100%;
-  font-size: 17px;
-  font-family: Nikosh;
-  color: #fff;
+  font-size: 16px;
+  font-family: 'Noto Sans Bengali UI';
+  color: #FFFFFF;
   line-height: 30px;
+  font-weight: 300;
+  margin-left: 15px;
 }
 
 #nested1, #nested2, #nested3, #nested4{

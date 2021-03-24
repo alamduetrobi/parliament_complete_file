@@ -321,9 +321,10 @@ img.personimage {
 .topmaintitle h3 {
   color: #0098BF;
   font-size: 28px;
-  font-weight: normal;
-  font-family: Nikosh;
+  font-weight: 400;
+  font-family: 'Noto Sans Bengali UI';
   margin-top: 7px;
+
 }  
 .topmaintitleeng h3 {
 color: #0098BF;
@@ -347,7 +348,7 @@ width: -webkit-max-content;
 width: -moz-max-content;
 width: max-content;
 padding: 0px 15px;
-font-family: nikosh;
+font-family: 'SolaimanLipi', sans-serif;
 }  
 
 .drapoitmenttitleeng h4 {
@@ -998,10 +999,7 @@ span.onoffswitch-switch img {
   margin-top: -8px;
 }
 
-::-webkit-scrollbar-thumb {
-  background: red; 
-  border-radius: 10px;
-}
+
 
 a.totaltrashlist i {
   background-color: #ededed;
@@ -1010,6 +1008,65 @@ a.totaltrashlist i {
   font-size: 15px;
   margin-top: 5px;
 }
+
+/* .formselect{
+  background: 0 0;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+} */
+
+
+/* .selectimage select {
+  -moz-appearance:none;          
+  -webkit-appearance:none;    
+  appearance:none;
+} */
+
+.selectimage select {
+
+  background: url('../../images/arrowdown.png') no-repeat right #fff;
+  -moz-appearance:none; 
+  -webkit-appearance: none;
+  background-position-x: 365px;
+
+}
+
+
+/* .formselect{
+  background: 0 0;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+}
+
+.selectimage{
+  border: 1px solid #fff;
+  border-radius: 3px;
+  height: 66px; 
+  box-shadow: none;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background: url('../../images/arrowdown.png') no-repeat 95% 50%;
+} */
+
+/* .formselect::after {
+  position: absolute;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  height: 66px; 
+  box-shadow: none;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background: url('../../images/arrowdown.png') no-repeat 95% 50%;
+  
+} */
+
+
 
 /* =========================== Mulistage Form design ========================== */
 
