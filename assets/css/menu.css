@@ -183,14 +183,7 @@ Left Menu Code
 }
 
 .navbar ul li {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
   width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   list-style: none;
   padding: 12px 10px  10px;
   transition: all 0.3s ease;
@@ -251,7 +244,7 @@ span.angle .icon {
 }
 
 img.subimagesub {
-  width: 25px;
+  /* width: 25px; */
   margin-left: 10px;
 }
 span.menutext {
@@ -422,3 +415,24 @@ label #sidebar_btn:hover{
 }
 
 /* ========================= Top scroll area End ======================= */
+.dropdown-submenu ul {
+  background: #000;
+  margin-left: 10px;
+  display: none;
+}
+.dropdown-submenu .hasSubMenu {
+   position: relative;
+}
+.dropdown-submenu .hasSubMenu::after {
+  background: url(../../images/arrowdown.png) no-repeat right;
+position: absolute;
+top: 10px;
+right: 20px;
+width: 20px;
+height: 20px;
+content: "";
+}
+.dropdown-submenu.subMenuOn > .hasSubMenu::after {
+
+  background: url('https://dashboard.revechat.com/static/images/custome-select-arrow.png')no-repeat right;
+}

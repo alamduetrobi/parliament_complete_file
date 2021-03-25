@@ -334,7 +334,7 @@ font-family: 'Lato', sans-serif;
 margin-top: 7px;
 }
 
-.sub_title h4 {
+.drapoitmenttitle h4 {
 color: #0098BF;
 font-size: 24px;
 font-weight: 500;
@@ -350,23 +350,6 @@ width: max-content;
 padding: 0px 15px;
 font-family: 'SolaimanLipi', sans-serif;
 }  
-
-/* .drapoitmenttitle h4 {
-color: #0098BF;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 20px;
-margin-top: -33px;
-width: -webkit-fit-content;
-width: -moz-fit-content;
-width: fit-content;
-background-color: #F8F8F8;
-width: -webkit-max-content;
-width: -moz-max-content;
-width: max-content;
-padding: 0px 15px;
-font-family: 'SolaimanLipi', sans-serif;
-}   */
 
 .drapoitmenttitleeng h4 {
 color: #0098BF;
@@ -417,13 +400,9 @@ font-weight: normal;
 }
 
 
-.sub_title_top {
+.drappoiment {
   padding: 20px;
 }
-
-/* .drappoiment {
-  padding: 20px;
-} */
 
 textarea.commentbox {
   width: 100%;

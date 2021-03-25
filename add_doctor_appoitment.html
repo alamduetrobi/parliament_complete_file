@@ -21,17 +21,19 @@
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/admin.svg" alt=""></span> <span class="menutext">মানবসম্পদ ব্যবস্থাপনা</span> <span class="angle"><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/online.svg" alt=""></span> <span class="menutext">অনলাইন নিয়োগ</span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/attendance.svg" alt=""></span> <span class="menutext">অফিস উপস্থিতি</span> </a></li>
-              <li  id="toggle1" ><a href="#"><span class="menuimg"><img src="images/menu_icons/medical.svg" alt=""></span> <span class="menutext" id="menutext1">মেডিকেল ব্যাবস্থাপনা</span> <span class="angle"><ion-icon class="icon" name="chevron-forward-outline" id="arrow1"></ion-icon></span> </a></li>
-              <div id="allnested1">
-                <li id="nested1"><a href="#"><span class="menuimg"><img class="subimage" src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext">সাধারণ পরীক্ষাগার রিপোর্ট</span> </a></li>
-                <li id="nested2"><a href="#"><span class="menuimg"><img  class="subimage"  src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext">চিকিৎসক কার্যকারিতা রিপোর্ট</span> </a></li>
-                <li id="nested3" ><a href="#"><span class="menuimg"><img  class="subimage"  src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext">প্রেস্ক্রিপশন</span> </a></li>
-                <li id="nested4"><a href="#"><span class="menuimg"><img  class="subimage"  src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext" id="menutext2">অ্যাপয়েন্টমেন্ট</span> <span class="angle"><ion-icon class="icon" name="chevron-forward-outline" id="arrow2"></ion-icon></span> </a></li>
-                <div id="allnested3">
-                  <li id="nested5"><a href="#"><span class="menuimg"><img  class="subimagesub"  src="images/menu_icons/sub_sub.svg" alt=""></span><span class="menutext">আমার অ্যাপয়েন্টমেন্ট</span> </a></li>
-                  <li id="nested6"><a href="#"><span class="menuimg"><img  class="subimagesub"  src="images/menu_icons/sub_sub.svg" alt=""></span> <span class="menutext" id="menutext3">যোগ করুন</span> </a></li>
-                </div>
-              </div>
+              <li  class="toggle1 dropdown-submenu" ><a href="#"  class="hasSubMenu"><span class="menuimg"><img src="images/menu_icons/medical.svg" alt=""></span> <span class="menutext menutext1" id="">মেডিকেল ব্যাবস্থাপনা</span> <span class="angle"><ion-icon class="icon arrow1" name="chevron-forward-outline" id=""></ion-icon></span> </a>
+                <ul class="allnested1 ">
+                  <li class="nested1"><a href="#"><span class="menuimg"><img class="subimage" src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext">সাধারণ পরীক্ষাগার রিপোর্ট</span> </a></li>
+                  <li class="nested2"><a href="#"><span class="menuimg"><img  class="subimage"  src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext">চিকিৎসক কার্যকারিতা রিপোর্ট</span> </a></li>
+                  <li class="nested3" ><a href="#"><span class="menuimg"><img  class="subimage"  src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext">প্রেস্ক্রিপশন</span> </a></li>
+                  <li class="nested4 dropdown-submenu subMenuOn"><a href="#"  class="hasSubMenu"><span class="menuimg"><img  class="subimage"  src="images/menu_icons/sub.svg" alt=""></span> <span class="menutext" id="menutext2">অ্যাপয়েন্টমেন্ট</span> <span class="angle"><ion-icon class="icon arrow2" name="chevron-forward-outline" id=""></ion-icon></span> </a>
+                    <ul class="allnested3">
+                      <li class="nested5"><a href="#"><span class="menuimg"><img  class="subimagesub"  src="images/menu_icons/sub_sub.svg" alt=""></span><span class="menutext">আমার অ্যাপয়েন্টমেন্ট</span> </a></li>
+                      <li class="nested6"><a href="#"><span class="menuimg"><img  class="subimagesub"  src="images/menu_icons/sub_sub.svg" alt=""></span> <span class="menutext menutext3" id="">যোগ করুন</span> </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/transport.svg" alt=""></span> <span class="menutext">যানবাহন পরিচালনা</span><span class="angle"><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/gate_pass.svg" alt=""></span> <span class="menutext">গেট পাস (ভিজিটর ম্যানেজমেন্ট)</span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/economi.svg" alt=""></span> <span class="menutext">আর্থিক ব্যবস্থাপনা</span> </a></li>
@@ -118,8 +120,9 @@
 
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
               <!-- <div class="allformitem"> -->
-              <div class="drappoiment">
-                <div class="drapoitmenttitle">
+              <!-- <div class="drappoiment"> -->
+              <div class="sub_title_top">
+                <div class="sub_title">
                   <h4>ডাক্তার অ্যাপয়েন্টমেন্টঃ</h4>
                 </div>
                 <div class="drappoitmentform">
@@ -187,8 +190,8 @@
           </div>
     
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="drappoiment">
-                  <div class="drapoitmenttitle">
+                <div class="sub_title_top">
+                  <div class="sub_title">
                     <h4>রোগীর বিবরণঃ </h4>
                   </div>
                   <div class="drappoitmentform">
@@ -286,6 +289,7 @@
  <script src="assets/js/jquery-3.6.0.min.js"></script>
  <script src="assets/js/bootstrap.bundle.min.js"></script>
  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+ <script src="assets/js/jquery.nicescroll.min.js"></script>
  <script src="assets/js/custom.js"></script>
 </body>
 </html>
