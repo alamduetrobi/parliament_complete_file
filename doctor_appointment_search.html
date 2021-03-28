@@ -61,7 +61,7 @@
         <div class="details">
             <div class="dropdown">
                 <span class="" type="button" id="details" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <a href="#"> <img src="images/details.svg" alt="Details"> </a>
+                    <a href="#"> <img src="images/details.svg" alt="Details"> <sup class="count" >3</sup> </a>
                 </span>
                 <ul class="dropdown-menu" aria-labelledby="details">
                   <li ><a  class="dropdown-item" href="#"> 
@@ -103,7 +103,7 @@
     <div class="row">
        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
          <div class="topmaintitle">
-           <img src="images/search.svg" alt="bero metter">
+           <img class="top_search" src="images/search.svg" alt="bero metter">
           <h3 class="toptitle">অ্যাপয়েন্টমেন্ট খুঁজুন</h3>
          </div>
          <hr>
@@ -132,23 +132,23 @@
             <form>
               <div class="row mb-1">
                 
-                <div class="col">
-                  <input type="date" class="form-control" placeholder="সাক্ষাৎকার তারিখ প্রথম">
+                <div class="col dateimage">
+                  <input type="text" class="form-control dateicon " placeholder="সাক্ষাৎকার তারিখ প্রথম">
+                </div>   
+
+                <div class="col dateimage">
+                  <input type="text" class="form-control dateicon " placeholder="সাক্ষাৎকার তারিখ শেষ">
                 </div>
-  
+                            
                 <div class="col">
-                  <input type="date" class="form-control" placeholder="সাক্ষাৎকার তারিখ শেষ">
-                </div>              
-                
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="ইউজারনেম">
+                  <input type="text" class="form-control solaimanfont noinputbg" placeholder="ইউজারনেম">
                 </div>
   
               </div>
               <div class="row mb-1">
                 
-                <div class="col">
-                  <select class="form-control form-height" aria-label="Default select example">
+                <div class="col selectimage">
+                  <select class="form-control form-height solaimanfont noinputbg" aria-label="Default select example">
                     <option selected>ডাক্তার</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -157,12 +157,12 @@
                 </div>
   
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="চিকিৎসক নাম">
+                  <input type="text" class="form-control solaimanfont noinputbg" placeholder="চিকিৎসক নাম">
                 </div>              
                 
-                <div class="col">
-                  <select class="form-control form-height" aria-label="Default select example">
-                    <option selected>ডাক্তার</option>
+                <div class="col selectimage">
+                  <select class="form-control form-height solaimanfont noinputbg" aria-label="Default select example">
+                    <option selected>বিভাগ</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
@@ -171,7 +171,7 @@
 
                 <div class="col-md-12 text-right mt-2">
                   <div class="allsubmit topbottom ">
-                    <button type="submit" class="btn btn-primarysubmitsearch">অনুসন্ধান</button>
+                    <button type="submit" class="btn btn-primarysubmitsearch solaimanfont bthhover">অনুসন্ধান</button>
                   </div>               
                </div>
   

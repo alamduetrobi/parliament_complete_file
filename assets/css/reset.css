@@ -59,7 +59,7 @@
     src: url('fonts/Roboto/Roboto-Thin.ttf') format('ttf');
     src: url('fonts/Roboto/Roboto-ThinItalic.ttf') format('ttf');
 
-    src: url('fonts/Roboto/Roboto-Black.woff') format('woff');
+    /* src: url('fonts/Roboto/Roboto-Black.woff') format('woff');
     src: url('fonts/Roboto/Roboto-BlackItalic.woff') format('woff');
     src: url('fonts/Roboto/Roboto-Bold.woff') format('woff');
     src: url('fonts/Roboto/Roboto-BoldCondensed.woff') format('woff');
@@ -71,10 +71,12 @@
     src: url('fonts/Roboto/Roboto-Light.woff') format('woff');
     src: url('fonts/Roboto/Roboto-LightItalic.woff') format('woff');
     src: url('fonts/Roboto/Roboto-Medium.woff') format('woff');
-    src: url('fonts/Roboto/Roboto-MediumItalic.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-MediumItalic.woff') format('woff'); */
+
     src: url('fonts/Roboto/Roboto-Regular.woff') format('woff');
-    src: url('fonts/Roboto/Roboto-Thin.woff') format('woff');
-    src: url('fonts/Roboto/Roboto-ThinItalic.woff') format('woff');
+
+    /* src: url('fonts/Roboto/Roboto-Thin.woff') format('woff');
+    src: url('fonts/Roboto/Roboto-ThinItalic.woff') format('woff'); */
 
     }
 

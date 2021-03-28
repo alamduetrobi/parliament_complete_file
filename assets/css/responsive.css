@@ -51,6 +51,15 @@
         margin-bottom: 60px;
     }
 
+    .admit_patient_title h3 {
+        font-size: 25px;
+    }
+
+    .complete_patient_title h3 {
+        font-size: 25px;
+
+    }
+
 
 }
 

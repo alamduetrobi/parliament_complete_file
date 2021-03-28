@@ -1,5 +1,12 @@
-.test h1{
-    font-size: 100px;
+sup.count {
+    background: #E42323;
+    padding: 2px 7px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    font-family: roboto;
+    line-height: 18px;
+    position: absolute;
+    top: -12px;
+    left: 20px;
 }
-
-
