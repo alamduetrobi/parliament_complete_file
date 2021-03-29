@@ -17,6 +17,17 @@
 
 }
 
+
+/* ===================Home Page Responsive code ===================== */
+
+@media  screen and (max-width:1600px) {
+.admit_patient_title h3 {
+    font-size: 28px;
+  }
+}
+
+/* ===================Home Page Responsive code ===================== */
+
 @media  screen and (max-width:1537px) {
     #check:checked ~ .leftmenuarea .logoarea img {
         margin-left:130px;

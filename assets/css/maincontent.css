@@ -323,6 +323,30 @@ img.personimage {
   font-family: 'SolaimanLipi', sans-serif;
 }
 
+.seven_day_report {
+  display: block;
+  float: left;
+  width: 90%;
+  margin-top: 60px;
+  border: 1px solid #EEF3F8;
+  border-radius: 12px;
+  padding: 15px;
+  margin-left: 60px;
+}
+
+.six_month_report {
+  display: block;
+  float: left;
+  width: 90%;
+  margin-top: 60px;
+  border: 1px solid #EEF3F8;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+
+
+/* ======================Home Page design end  ======================== */
 /* ======================admit Patient ======================== */
 .admit_patient {
   background: linear-gradient(to right, #EE9048, #EE9048);
@@ -361,7 +385,7 @@ img.personimage {
   font-size: 30px;
   margin-top: 40px;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 

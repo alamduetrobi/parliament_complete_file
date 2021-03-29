@@ -21,12 +21,20 @@
           ['2017', 1030, 540, 350]
         ]);
 
-        var options = {
-          chart: {
-            title: 'Company Performance',
-            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
-          }
+        options = {
+          title: 'Activities'
+          ,chartArea:{left:0,top:0,width:"100%",height:"100%"}
+          ,height: 500
+          ,width: 650
         };
+
+        // var options = {
+        //   chart: {
+        //     title: 'Company Performance',
+        //     subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+        //   }
+        // };
+
 
         var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
 
@@ -90,10 +98,9 @@
                 </div>
               </div>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/transport.svg" alt=""></span> <span class="menutext">যানবাহন পরিচালনা</span><span class="angle"><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></span> </a></li>
-              <li><a href="#"><span class="menuimg"><img src="images/gate_pass.svg" alt=""></span> <span class="menutext">গেট পাস (ভিজিটর ম্যানেজমেন্ট)</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/menu_icons/gate_pass.svg" alt=""></span> <span class="menutext">গেট পাস (ভিজিটর ম্যানেজমেন্ট)</span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/economi.svg" alt=""></span> <span class="menutext">আর্থিক ব্যবস্থাপনা</span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/gate_pass.svg" alt=""></span> <span class="menutext">গেট পাস (ভিজিটর ম্যানেজমেন্ট)</span> </a></li>
-              <li><a href="#"><span class="menuimg"><img src="images/financial_management.svg" alt=""></span> <span class="menutext">আর্থিক ব্যবস্থাপনা</span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/budget.svg" alt=""></span> <span class="menutext">বাজেট ব্যবস্থাপনা</span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/inventory.svg" alt=""></span> <span class="menutext">ইনভেন্টরি এবং ক্রয় ব্যবস্থাপনা</span> </a></li>
               <li><a href="#"><span class="menuimg"><img src="images/menu_icons/assets.svg" alt=""></span> <span class="menutext">সম্পদ ব্যবস্থাপনা</span> </a></li>
@@ -189,12 +196,12 @@
     <div class="row">
       <div class="col-md-6">
         <div class="seven_day_report">
-          <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+          <div id="columnchart_material" style="width: 100%; height: 500px;"></div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="six_month_report">
-          <div id="chart_div" style="width: 800px; height: 500px;"></div>
+          <div id="chart_div" style="width:100%; height: 500px;"></div>
         </div>
       </div>
     </div>
