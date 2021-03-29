@@ -284,6 +284,14 @@ img.personimage {
 
 /* ====================================== Home Page Design ====================== */
 
+.chart {
+  width: 100%; 
+  min-height: 450px;
+}
+.row {
+  margin:0 !important;
+}
+
 .complete_patient {
   background: linear-gradient(to right, #9861C2, #6132B2);
   color: #fff;

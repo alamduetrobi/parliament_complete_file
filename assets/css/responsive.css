@@ -15,6 +15,10 @@
         margin-left: 76%;
     }
 
+    .admit_patient_title h3 {
+        font-size: 28px;
+      }
+
 }
 
 
@@ -63,16 +67,19 @@
     }
 
     .admit_patient_title h3 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .complete_patient_title h3 {
-        font-size: 25px;
+        font-size: 24px;
 
     }
 
 
 }
+
+
+
 
 @media  screen and (max-width:1427px) {
     .nav ul li a {
@@ -80,6 +87,15 @@
     }
     span.angle .icon {
         font-size: 12px;
+    }
+
+    .admit_patient_title h3 {
+        font-size: 20px;
+    }
+
+    .complete_patient_title h3 {
+        font-size: 20px;
+
     }
 
 
@@ -148,7 +164,22 @@ span.menuimg img {
     width:5%;
 }
 
+.admit_patient_title h3 {
+    font-size: 19px;
+}
 
+.complete_patient_title h3 {
+    font-size: 19px;
+
+}
+
+.admit_patient_title {
+    padding: 30px 10px;
+}
+
+.complete_patient_title {
+    padding: 30px 10px;
+}
 
 }
 
@@ -169,6 +200,14 @@ span.menuimg img {
         width: 50px;
     }
 
+    .admit_patient_title {
+        padding: 30px 8px;
+    }
+    
+    .complete_patient_title {
+        padding: 30px 8px;
+    }
+
 
 }
 
@@ -185,6 +224,27 @@ span.menuimg img {
     #check:checked ~ .leftmenuarea .logoarea img {
         margin-left: 60%;
         width: 50px;
+    }
+
+    .admit_patient_title {
+        justify-content: space-around;
+    }
+
+    .complete_patient_title {
+        justify-content: space-around;
+    }
+
+    .admit_patient_title {
+        justify-content: space-around;
+    }
+    .complete_patient_title h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .admit_patient_title h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
     }
 
 
@@ -268,11 +328,36 @@ span.menuimg img {
         width: calc(100% - 25%);
     }
 
+    .admit_patient_title h3 {
+        font-size: 18px;
+    }
+
+    .complete_patient_title h3 {
+        font-size: 18px;
+
+    }
+
 
 
 }
 
 @media  screen and (max-width:941px) {
+
+
+    .complete_patient {
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    .admit_patient {
+        width: 100%;
+    }
+
+    .seven_day_report {
+        width: 100%;
+        margin-left: 10px;
+    }
 
     .leftmenuarea span.menuimg img {
         margin-left: 0px;
@@ -306,10 +391,19 @@ span.menuimg img {
     .footerarea {
         text-align: right;
     }
+}
 
+@media  screen and (max-width:850px) {
+    .complete_patient_title h3 {
+        font-size: 16px;
+    }
 
+    .admit_patient_title h3 {
+        font-size: 16px;
+    }
 
 }
+
 
 @media  screen and (max-width:772px) {
 
@@ -377,7 +471,11 @@ span.menuimg img {
         float: left;
         width: calc(100% - 0%);
     }
-
+    .complete_patient {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
 
 
 }
