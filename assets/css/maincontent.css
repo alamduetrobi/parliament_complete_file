@@ -416,12 +416,13 @@ img.personimage {
 
 }  
 .topmaintitleeng h3 {
-color: #0098BF;
-font-size: 23px;
-font-weight: 400;
-font-family: 'Lato', sans-serif;
-margin-top: 7px;
-}
+  color: #0098BF;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Noto Sans Bengali UI';
+  margin-top: -5px;
+
+}  
 
 .sub_title h4 {
 color: #0098BF;
@@ -473,20 +474,21 @@ width: max-content;
 padding: 0px 15px;
 font-family: 'Lato', sans-serif;
 }
+
 .botomtitle h4 {
-color: #0098BF;
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 20px;
-width: -webkit-fit-content;
-width: -moz-fit-content;
-width: fit-content;
-background-color: #F8F8F8;
-width: -webkit-max-content;
-width: -moz-max-content;
-width: max-content;
-padding: 0px 15px;
-font-family: 'Lato', sans-serif;
+	color: #0098BF;
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	background-color: #F8F8F8;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+	padding: 0px 15px;
+	font-family: Roboto;
 }
 
 .formtext {
@@ -496,8 +498,8 @@ font-weight: normal;
 }
 
 .formtexteng {
-font-size: 14px;
-font-family: 'Lato', sans-serif;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
 font-weight: normal;
 }
 
@@ -632,14 +634,28 @@ text-decoration: none;
 border: none;
 
 }
+
+
 .btn-primarysubmit:hover {
 color: #ddd;
 text-decoration: none;
 border: none;
 }
 
+.primarybatileng:hover {
+color: #ddd;
+text-decoration: none;
+border: none;
+}
+
+
 .allsubmit {
 text-align: right!important;
+display: inline-block;
+margin-bottom: 20px;
+}
+.allsubmitcenter {
+text-align: center!important;
 display: inline-block;
 margin-bottom: 20px;
 }
@@ -1070,7 +1086,7 @@ padding-bottom: 0.5em;
 #table-example-1 th, 
 #table-example-1 td { 
 border: solid thin;
-padding: 0.5rem 2rem;
+/* padding: 0.5rem 2rem; */
 }
 #table-example-1 td {
 white-space: nowrap;
@@ -1091,6 +1107,17 @@ text-align: center;
 #table-example-1 tbody td:first-child::after { 
 content: leader(". "); 
 }
+
+#table-example-1 th{
+  border: 1px solid #ABABAB !important;
+ }
+ 
+#table-example-1 tr{
+  border: 1px solid #ABABAB !important;
+ } 
+#table-example-1 td{
+  border: 1px solid #ABABAB !important;
+ }
 /* =========================== test Content css ========================== */
 /* =========================== Presentation page design ========================== */
 
@@ -1149,6 +1176,9 @@ left: 650px;
 }
 
 .addmore {
+  margin-bottom: 80px;
+}
+.addmore_nomargin {
   margin-bottom: 80px;
 }
 

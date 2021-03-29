@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Medical Inventory</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+<input type="checkbox" id="check">
+<div class="leftmenuarea">
+    <div class="logomenu2">
+        <div class="logoarea">
+          <a class="mainlogo" href="#"> <img src="images/prplogo.png" alt="prp Logo"> </a>
+        </div>
+        <div class="leftmenu">
+          <nav class="navbar">
+            <ul>
+              <li><a href="#"><span class="menuimg"><img src="images/human_resource_management.svg" alt=""></span> <span class="menutext">মানবসম্পদ ব্যবস্থাপনা</span> <span class="angle"><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/online_recruitment.svg" alt=""></span> <span class="menutext">অনলাইন নিয়োগ</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/office_attendance.svg" alt=""></span> <span class="menutext">অফিস উপস্থিতি</span> </a></li>
+              <li  id="toggle1" ><a href="#"><span class="menuimg"><img src="images/medical_management.svg" alt=""></span> <span class="menutext" id="menutext1">মেডিকেল ব্যাবস্থাপনা</span> <span class="angle"><ion-icon class="icon" name="chevron-forward-outline" id="arrow1"></ion-icon></span> </a></li>
+              <div id="allnested1">
+                <li id="nested1"><a href="#"><span class="menuimg2"></span> <span class="menutext">সাধারণ পরীক্ষাগার রিপোর্ট</span> </a></li>
+                <li id="nested2"><a href="#"><span class="menuimg2"></span> <span class="menutext">চিকিৎসক কার্যকারিতা রিপোর্ট</span> </a></li>
+                <li id="nested3" ><a href="#"><span class="menuimg2"></span> <span class="menutext">প্রেস্ক্রিপশন</span> </a></li>
+                <li id="nested4"><a href="#"><span class="menuimg2"></span> <span class="menutext" id="menutext2">অ্যাপয়েন্টমেন্ট</span> <span class="angle"><ion-icon class="icon" name="chevron-forward-outline" id="arrow2"></ion-icon></span> </a></li>
+                <div id="allnested3">
+                  <li id="nested5"><a href="#"><span class="menuimg3"></span> <span class="menutext">Third Level</span> </a></li>
+                  <li id="nested6"><a href="#"><span class="menuimg3"></span> <span class="menutext">Third Level</span> </a></li>
+                </div>
+              </div>
+              <li><a href="#"><span class="menuimg"><img src="images/vehicle_management.svg" alt=""></span> <span class="menutext">যানবাহন পরিচালনা</span><span class="angle"><ion-icon class="icon" name="chevron-forward-outline"></ion-icon></span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/gate_pass.svg" alt=""></span> <span class="menutext">গেট পাস (ভিজিটর ম্যানেজমেন্ট)</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/financial_management.svg" alt=""></span> <span class="menutext">আর্থিক ব্যবস্থাপনা</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/gate_pass.svg" alt=""></span> <span class="menutext">গেট পাস (ভিজিটর ম্যানেজমেন্ট)</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/financial_management.svg" alt=""></span> <span class="menutext">আর্থিক ব্যবস্থাপনা</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/budget_management.svg" alt=""></span> <span class="menutext">বাজেট ব্যবস্থাপনা</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/inventory_and_purchase_management.svg" alt=""></span> <span class="menutext">ইনভেন্টরি এবং ক্রয় ব্যবস্থাপনা</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/asset_management.svg" alt=""></span> <span class="menutext">সম্পদ ব্যবস্থাপনা</span> </a></li>
+              <li><a href="#"><span class="menuimg"><img src="images/technical_problem_management.svg" alt=""></span> <span class="menutext">প্রযুক্তিগত সমস্যা ব্যবস্থাপনা</span> </a></li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+</div>
+<div class="headerarea">
+<div class="headerleft">
+    <header>
+        <label for="check">
+            <span id="sidebar_btn"></span>
+        </label> 
+    </header>
+</div>
+<div class="header_right">
+    <div class="single_item">
+        <div class="details">
+            <div class="dropdown">
+                <span class="" type="button" id="details" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="#"> <img src="images/details.svg" alt="Details"> </a>
+                </span>
+                <ul class="dropdown-menu" aria-labelledby="details">
+                  <li ><a  class="dropdown-item" href="#"> 
+                      <span class="plusimg"> <img src="images/possitibebas.svg" alt=""> 
+                    </span> <h6>মেডিকেল ব্যাবস্থাপনা</h6> <p>চিকিৎসক কার্যকারিতা রিপোর্ট, অনুগ্রহ করে নির্বাচন করুন</p> 
+                </a>
+                    </li>
+                  <li><a class="dropdown-item active" href="#"> <span class="plusimg"> <img src="images/possitibebas.svg" alt=""> </span> <h6>মেডিকেল ব্যাবস্থাপনা</h6> <p>চিকিৎসক কার্যকারিতা রিপোর্ট, অনুগ্রহ করে নির্বাচন করুন</p> </a></li>
+                  <li><a class="dropdown-item" href="#"> <span class="plusimg"> <img src="images/possitibebas.svg" alt=""> </span> <h6>মেডিকেল ব্যাবস্থাপনা</h6> <p>চিকিৎসক কার্যকারিতা রিপোর্ট, অনুগ্রহ করে নির্বাচন করুন</p> </a></li>
+
+                </ul>
+              </div>
+            <!-- <a href="#"> <img src="images/details.svg" alt="Details"> </a> -->
+        </div>
+    </div>
+    <div class="single_item">
+        <!-- <div class="language">
+            <a href="#"> <img src="images/language.svg" alt="language"></a>
+        </div> -->
+
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"><img src="images/world.svg" alt="language"></span>
+            </label>
+        </div>
+    </div>
+    <div class="single_item">
+        <div class="designation">
+            <a href="#"> <span class="maintitle"> মোঃ হাফিজুর রহমান </span> <span class="manager">(ম্যানেজার)</span> <img class="personimage" src="images/person.svg" alt="person"> </a>
+        </div>
+    </div>
+    <div class="single_item">
+        <div class="logout">
+            <a href="#"> <img src="images/logout.svg" alt="logout"> </a>
+        </div>
+    </div>
+</div>    
+</div>
+
+<div class="maincontent">
+  <div class="container-fluid">
+    <div class="row">
+       <div class="col-md-6">
+          <div class="leftallcontent">
+            <div class="leftlogo">
+              <img src="images/pleftlogo.svg" alt="Parliament leftlogo">
+            </div>
+            <div class="logocontent">
+              <h2>পার্লামেন্ট মেডিকেল সেন্টার </h2>
+              <p>শের এ বাংলা নগর, ঢাকা ১২১৫ <br>
+                টেলিফোনঃ ৯১১২১৫৮, পিএবিএক্সঃ ২৫৩৪</p>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-6">
+        <div class="rightallcontent">
+          <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <td>রোগীর নামঃ</td>
+                <td>Md. Abbas Mollah</td>
+              </tr>
+
+              <tr>
+                <td>রেফারেন্স কর্মকর্তাঃ</td>
+                <td></td>
+              </tr>
+              
+              <tr>
+                <td>বয়সঃ</td>
+                <td> ৫১ বছর ০ মাস ২৫ দিন</td>
+              </tr>              
+              <tr>
+                <td>লিঙ্গঃ</td>
+                <td>অনুগ্রহ করে নির্বাচন করুন</td>
+              </tr>             
+              <tr>
+                <td>ডাক্তারঃ</td>
+                <td>Pro. Debasish Gosh</td>
+              </tr>             
+              <tr>
+                <td>সাক্ষাৎকার তারিখঃ</td>
+                <td>১১-০১-২০২১</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+       </div>
+    </div>
+    <form action="">
+
+
+      <div class="row">
+        <div class="botomtitle">
+          <h4>রোগীর অবস্তা </h4>
+        </div>
+
+     
+            <div class="col-md-12">
+
+              <div class="botomcontent">         
+
+                <table class="table table-bordered  searchtable reporttable">
+                  <thead>
+                    <tr>
+                      <th scope="col">ওজন (কেজি) </th>
+                      <th scope="col">উচ্চতা (সেমি) </th>
+                      <th scope="col">বি এম আই</th>
+                      <th scope="col">তাপমাত্রা (সেলসিয়াস) </th>
+                      <th scope="col">রক্তচাপ</th>
+                      <th scope="col">অক্সিজেন সম্পৃক্তি</th>
+                      <th scope="col">পালস</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> ৫৫৪.০ </td>
+                      <td>৫৫.০</td>
+                      <td> ১৮৩১.৪০</td>
+                      <td> ৯৯.০ </td>
+                      <td>১২০.০/৮৮.০ </td>
+                      <td>৯৯.০ </td>
+                      <td>৬৬.০</td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+
+      </div>
+
+      </div>
+
+      
+      <div class="row">
+        <div class="botomtitle">
+          <h4>ডাক্তারের পরামর্শ</h4>
+        </div>
+
+     
+            <div class="col-md-12">
+
+              <div class="botomcontent">         
+
+                <table class="table table-bordered  searchtable reporttable">
+                  <thead>
+                    <tr>
+                      <th scope="col">ক্রমিক</th>
+                      <th scope="col">ঔষধ </th>
+                      <th scope="col">ডোজের ধরণ</th>
+                      <th scope="col">কতদিন খাবেন </th>
+                      <th scope="col">পরিমান</th>
+                      <th scope="col">খাদ্য নির্দেশনাবলী</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>০৩ </td>
+                      <td>Pantonix 20</td>
+                      <td> ১৮৩১.৪০</td>
+                      <td>০৬ সপ্তাহ</td>
+                      <td>০১+০+০১</td>
+                      <td>৬৬.০</td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+
+      </div>
+
+      </div>
+      
+      <div class="row">
+        <div class="botomtitle">
+          <h4>পরীক্ষার রিপোর্ট</h4>
+        </div>
+
+     
+            <div class="col-md-12">
+
+              <div class="botomcontent">         
+
+                <table class="table table-bordered  searchtable reporttable">
+                  <thead>
+                    <tr>
+                      <th scope="col">ক্রমিক </th>
+                      <th scope="col">রোগ নির্ণয়ের পরীক্ষা</th>
+                      <th scope="col">পরীক্ষার নাম</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>01</td>
+                      <td>Haematological</td>
+                      <td>Hb%, E.S.R..., W.B.C Count: Total Count W.B.C, Polymorphs, Lymphocytes, Monocytes, Eosinophils Others</td>
+                    </tr>
+                    <tr>
+                      <td>02</td>
+                      <td>Serological</td>
+                      <td>VDRL(PPP), Widal Test, RA Test: CRP Test, ICT for Malaria, ICT for Dengue </td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+
+      </div>
+
+      </div>
+
+    </form>
+  </div>
+
+  <div class="footerarea">
+    <p>কারিগরি সম্পাদনায়ঃ <span class="revefooter">রিভ সিস্টেমস লিঃ</span></p>
+  </div>
+</div>
+
+
+<script>
+    let toggle1 = document.querySelector("#toggle1");
+    let toggle2 = document.querySelector("#toggle2");
+    let nested1 = document.querySelector("#nested1");
+    let nested2 = document.querySelector("#nested2");
+    let nested3 = document.querySelector("#nested3");
+    let nested4 = document.querySelector("#nested4");
+    let nested5 = document.querySelector("#nested5");
+    let nested6 = document.querySelector("#nested6");
+    let allnested1 = document.querySelector("#allnested1");
+    let allnested3 = document.querySelector("#allnested3");
+
+    let arrow1 = document.querySelector("#arrow1");
+    let arrow2 = document.querySelector("#arrow2");
+    let menutext1 = document.querySelector("#menutext1");
+    let menutext2 = document.querySelector("#menutext2");
+
+
+    toggle1.addEventListener('click',()=>{
+      // if(nested1.style.display == "block" || nested2.style.display == "block" || nested3.style.display == "block" || nested4.style.display == "block")
+      if(allnested1.style.display == "block")
+      {
+        allnested1.style.display="none";
+        arrow1.style.transform = "rotate(0deg)";
+        arrow1.style.color = "#fff";
+        arrow1.style.textShadow = "none";
+
+      } else{
+        allnested1.style.display = "block";
+        nested1.style.display = "block";
+        nested2.style.display = "block";
+        nested3.style.display = "block";
+        nested4.style.display = "block";
+
+        arrow1.style.transform = "rotate(90deg)";
+        arrow1.style.color = "#00FFFF";
+        menutext1.style.color = "#00FFFF";
+        arrow1.style.textShadow = "0 0 5px #12fff1";
+        arrow1.style.transition = "all 1s ease";
+
+      }
+
+    });
+
+    
+    nested4.addEventListener('click',()=>{
+      if(allnested3.style.display == "block")
+      {
+        allnested3.style.display="none";
+        nested5.style.display="none";
+        nested6.style.display = "none";
+        arrow2.style.transform = "rotate(0deg)";
+        arrow2.style.color = "#fff";
+        arrow2.style.textShadow = "none";
+      } else{
+        allnested3.style.display="block";
+        nested5.style.display = "block";
+        nested6.style.display = "block";
+        arrow2.style.transform = "rotate(90deg)";
+        arrow2.style.color = "#00FFFF";
+        menutext2.style.color = "#00FFFF";
+        arrow2.style.textShadow = "0 0 5px #12fff1";
+        arrow2.style.transition = "all 1s ease";
+      }
+    })
+
+  </script>    
+ 
+ <script src="assets/js/jquery-3.6.0.min.js"></script>
+ <script src="assets/js/bootstrap.bundle.min.js"></script>
+ <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+ <script src="assets/js/custom.js"></script>
+</body>
+</html>
